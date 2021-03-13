@@ -5,13 +5,10 @@ hr {
 }
 
 body {
-    /*max-width: 1200px; Waar slaat dit op?*/
+    max-width: 1200px;
 }
 
 .one {
-    align-content: flex-end;
-    display: flex;
-    flex-wrap: wrap;
     background-color: mediumpurple;
     color: white;
     width: 350px;
@@ -19,95 +16,20 @@ body {
     padding: 16px;
 }
 
-.one * {
-    width: 100%;
-}
-
-.two {
-    display: flex;
-    justify-content: space-between;
-}
-
-.three {
-    display: flex;
-    justify-content: space-between;
-}
-
-.three ul {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    width: 25%;
-    justify-content: space-between;
-}
-
-.four {
-    display: flex;
-    justify-content: center;
-}
 form {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    place-content: center;
     width: 400px;
     height: 200px;
     background-color: lightgreen;
 }
 
-.five{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-article {
-    box-sizing: border-box;
-    width: 33%;
-    background-color: orange;
-    color: white;
-    padding: 20px;
-}
-
-@media (max-width: 1200px) {
-    .five article {
-    width: 50%;
-    }
-    .five article:last-child {
-        width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .five article {
-        width: 100%;
-        padding: 10px;
-    }
-}
-
-/*@media (max-width: 800px){*/
-/*    .five {*/
-/*        flex-wrap: wrap;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 800px) {*/
-/*   #five_article_3 {*/
-/*       width: 100%;*/
-/*       box-sizing: border-box;*/
-/*       padding: 10px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 400px){*/
-/*    .five {*/
-/*        flex-wrap: wrap;*/
-/*    }*/
-/*}*/
 form label {
     margin: 10px 0;
     width: 200px;
 }
 
-form input {
-    width: 100%;
+article {
+    background-color: orange;
+    color: white;
+    padding: 20px;
 }
+
